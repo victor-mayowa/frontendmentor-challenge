@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+* {
+  font-family: "Overpass", sans-serif;
+  padding: 0;
+  margin: 0;
+  color: hsl(0, 0%, 100%);
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(228, 11%, 9%);
+}
+
+p {
+  font-weight: 700;
+  color: hsl(214, 12%, 58%);
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 300px;
+  background-color: hsl(215, 22%, 15%);
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.content-header {
+  margin-bottom: 30px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: hsl(210, 19%, 18%);
+}
+
+.content-header img {
+  width: 14px;
+}
+.content-text {
+  margin-bottom: 20px;
+}
+
+.content-text h2 {
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.content-text p {
+  font-weight: 400;
+}
+
+.content-button {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.content-button .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background-color: hsl(213, 17%, 21%);
+  color: hsl(214, 12%, 58%);
+  cursor: pointer;
+  font-size: 14px;
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  transition: all ease-in 0.3s;
+}
+
+.content-button .active {
+  background-color: hsl(212, 14%, 44%);
+  color: white;
+}
+
+.content-button .circle:hover {
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+}
+
+.button {
+  width: 100%;
+  height: 35px;
+  border-radius: 20px;
+  text-align: center;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  outline: none;
+  letter-spacing: 1.5px;
+  transition: all ease-in 0.3s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: white;
+  color: hsl(25, 97%, 53%);
+}
